@@ -4,7 +4,8 @@ font-family: "Montserrat", sans-serif;
 margin: auto;
 color: #000000;
 background-color: aqua;
-Margin-left: 20px
+Margin-left: 20px;
+    Margin-right:20px;
 }
 .header{
     display: flex;
@@ -13,7 +14,7 @@ Margin-left: 20px
 .face{
     flex: 1;
     margin-top: 20px;
-    object-fit: centre;
+    object-fit: cover;
     border-radius: 3%;
     margin-left: 5%;
 
