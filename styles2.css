@@ -5,6 +5,7 @@ max-width: 50%;
 margin: auto;
 color: #000000;
 background-color: aqua;
+    margin-left:2px;
 }
 .header{
     display: flex;
