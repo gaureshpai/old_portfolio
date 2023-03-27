@@ -4,7 +4,7 @@ font-family: "Montserrat", sans-serif;
 margin: auto;
 color: #000000;
 background-color: aqua;
-    margin-left: 2px;
+margin-left: 10px;
 }
 .header{
     display: flex;
