@@ -1,4 +1,4 @@
-import '@/styles/cert.css'
+import '@/styles/globals.css'
 import React from 'react'
 const Certificate = () => {
   return (
