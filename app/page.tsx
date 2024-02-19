@@ -1,9 +1,12 @@
+import  Main  from '@/components/Main'
 import React from 'react'
 
-const page = () => {
+const Home = () => {
   return (
-    <div>page</div>
+    <section>
+      <Main/>
+    </section>
   )
 }
 
-export default page
+export default Home
