@@ -2,6 +2,7 @@ import React from 'react';
 import {
   FaPython,
   FaJava,
+  FaCode,
   FaHtml5,
   FaCss3Alt,
   FaReact,
@@ -23,8 +24,8 @@ const Skills = () => {
         <ul>
           <li><FaPython /> Python</li>
           <li><FaJava /> Java</li>
-          <li> C++</li>
-          <li> C</li>
+          <li><FaCode/> C++</li>
+          <li><FaCode/> C</li>
           <li> Scratch</li>
         </ul>
 
