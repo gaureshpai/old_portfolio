@@ -58,6 +58,7 @@
     justify-content: center;
     align-items: center;
     min-height: 80vh;
+    min-width: 80vw;
 }
 
 .contactInfo {
@@ -70,6 +71,11 @@
     transition: transform 0.2s ease;
     box-sizing: content-box;
     min-height: 50vh;
+}
+.contactInfo p {
+    margin-top: 20px;
+    line-height: 1.6;
+    text-decoration: none;
 }
 .School{
     float: left;

@@ -4,6 +4,10 @@ import Link from 'next/link'
 const education = () => {
   return (
     <div className = "containerc">
+      <br/>
+      <br />
+      <br />
+      <br />
       <div className='contactInfo'>
         <h2>Education</h2>
         <div className='School'>
