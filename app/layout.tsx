@@ -21,10 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="Body">
-        <header className="header">
-          <a href='/' className='name'><h2>Portfolio</h2></a>
-        </header>
+      <body className="MainBody">
         <Navbar />
         {children}
       </body>
