@@ -1,39 +1,39 @@
-import React from 'react'
+"use client"
+import React from 'react';
+import { FaEnvelope, FaLinkedin, FaTwitter, FaInstagram, FaGithub, FaYoutube } from 'react-icons/fa';
 
-const page = () => {
+const ContactInformation = () => {
+
   return (
-    <div>
-
-      <div className="content">
-        <div className="contact-info">
-          <div className="section-title">Contact Details</div>
-          <div className="info">
-            <div className='linec'>
-              <span className="a1">Email:</span>
-              <span >paigauresh@gmail.com</span>
-            </div>
-            <div className='linec'>
-              <span className="a1">Phone:</span>
-              <span >8861621934</span>
-            </div>
-            <div className='linec'>
-              <span className="a1">Age:</span>
-              <span >19</span>
-            </div>
-            <div className='linec'>
-              <span className="a1">Date of Birth:</span>
-              <span >17/01/2004</span>
-            </div>
-          </div>
+    <div className="container">
+      <div className="contact">
+        <div className="contact-item">
+          <FaEnvelope />
+          <p>Email: <a>paigauresh@gmail.com</a></p>
         </div>
-        <a className="website_link" href="https://www.instagram.com/hseruag/" target="_blank" >Instagram</a>
-        <a className="website_link" href="https://www.youtube.com/@hseruag" target="_blank" >Youtube</a>
-        <a className="website_link" href="https://twitter.com/hseruag" target="_blank" >Twitter/X</a>
-        <a className="website_link" href="https://www.linkedin.com/in/gaureshpai" target="_blank" >Linkedin</a>
+        <div className="contact-item">
+          <FaLinkedin />
+          <p>LinkedIn: <a href="https://www.linkedin.com/in/gaureshpai" target="_blank" rel="noopener noreferrer">gaureshpai</a></p>
+        </div>
+        <div className="contact-item">
+          <FaTwitter />
+          <p>Twitter: <a href="https://twitter.com/hseruag" target="_blank" rel="noopener noreferrer">@hseruag</a></p>
+        </div>
+        <div className="contact-item">
+          <FaInstagram />
+          <p>Instagram: <a href="https://www.instagram.com/hseruag" target="_blank" rel="noopener noreferrer">@hseruag</a></p>
+        </div>
+        <div className="contact-item">
+          <FaGithub />
+          <p>GitHub: <a href="https://github.com/gaureshpai" target="_blank" rel="noopener noreferrer">@gaureshpai</a></p>
+        </div>
+        <div className="contact-item">
+          <FaYoutube />
+          <p>YouTube: <a href="https://www.youtube.com/@hseruag" target="_blank" rel="noopener noreferrer">@hseruag</a></p>
+        </div>
       </div>
-
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default ContactInformation;

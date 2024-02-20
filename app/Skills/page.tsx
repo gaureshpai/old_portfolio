@@ -3,8 +3,8 @@ import React from 'react';
 const Skills = () => {
   return (
     <div className="container">
-      <h2>Skills</h2>
       <div className="skills">
+        <h2>Skills</h2>
         <h3>Programming Languages</h3>
         <ul>
           <li>Python</li>

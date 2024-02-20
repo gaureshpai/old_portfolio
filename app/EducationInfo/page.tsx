@@ -50,24 +50,12 @@ const education = () => {
             target="_blank">More about University
           </Link></p>
         </div>
-
       </div>
+      <br />
+      <br />
     </div>
 
   )
 }
 
-export default education
-
-// Bachelor of Science in Computer Science
-// University: XYZ University
-// Graduation Date: May 2023(Expected)
-// GPA: 3.8 / 4.0
-
-// Relevant Coursework:
-
-// Data Structures and Algorithms
-// Database Management Systems
-// Object - Oriented Programming
-// Web Development
-// Software Engineering
+export default education;
