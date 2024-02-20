@@ -2,8 +2,9 @@ import React from 'react';
 
 const Main = () => {
     return (
-        <div>
-            <div className="content1">
+        <div className='container'>
+            <div className="intro">
+                <h2>Introuction or About me</h2>
                 <p>Hello! My name is Gauresh, and I'm thrilled to share a bit about myself with you.</p>
 
                 <p>I come from a background in Computer Science, where I've honed my skills and expertise over the years.
