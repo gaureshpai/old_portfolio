@@ -3,19 +3,19 @@ import { NextResponse } from 'next/server';
 import React, { useState, useEffect } from 'react';
 
 async function getdata() {
-    const res = await fetch("http://localhost:3000/api/certs", { cache: "no-store" });
+    const res = await fetch("http://localhost:3000/api/certs" ||"https://gauresh.vercel.app/api/certs", { cache: "no-store" });
     if (!res.ok) return null;
     return res.json();
 }
 
 const AllCertificates = () => {
-    const [data, setData] = useState<any[]>([]); // Explicitly define the type as any[] or a custom type
+    const [data, setData] = useState<any[]>([]); 
 
     useEffect(() => {
         const fetchData = async () => {
             try {
                 const result = await getdata();
-                if (result) setData(result); // Set data only if result is not null
+                if (result) setData(result); 
             } catch (error) {
                 console.error("Error fetching data:", error);
             }
