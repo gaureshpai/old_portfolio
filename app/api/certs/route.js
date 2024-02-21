@@ -1,11 +1,11 @@
-import { NextResponse } from 'next';
+import { NextResponse } from 'next/server';
 
 import { connect } from '../../../utils/db';
 import Cert from '../../models/Cert';
 
 export const GET = async (request) => {
     try {
-        await connect();
+        await connect(); 
 
         const posts = await Cert.find();
 
