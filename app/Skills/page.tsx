@@ -18,6 +18,10 @@ import {
 const Skills = () => {
   return (
     <div className="container">
+      <br />
+      <br />
+      <br />
+      <br />
       <div className="skills">
         <h2>Skills</h2>
         <h3>Programming Languages</h3>

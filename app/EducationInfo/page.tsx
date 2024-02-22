@@ -1,28 +1,27 @@
 import React from 'react'
 import Link from 'next/link'
 
-const education = () => {
+const Education = () => {
   return (
-    <div className = "containerc">
-      <br/>
+    <div className="containerc">
+      <br />
       <br />
       <br />
       <br />
       <div className='contactInfo'>
-        <h2>Education</h2>
+        <h2 className="education-heading">Education</h2>
         <div className='School'>
-
           <h3>Schooling</h3>
           <p>School: SVS Vidyagiri</p>
           <p>Location: Bantwal, Karnataka</p>
           <p>Passing Year: 2020</p>
           <p>Percenatge score: 96.96%</p>
-          <Link className="link" 
-          href="https://schools.org.in/dakshina-kannada/29240108307/svs-english-medium-high-school-vidyagiri-bantwal.html" 
-          target="_blank">More about the school
+          <Link className="link"
+            href="https://schools.org.in/dakshina-kannada/29240108307/svs-english-medium-high-school-vidyagiri-bantwal.html"
+            target="_blank">More about the school
           </Link>
         </div>
-        
+
         <div className='PUC'>
           <h3>Pre-University Course (PUC)</h3>
           <p>College: Aloysius Pre-University College</p>
@@ -54,8 +53,7 @@ const education = () => {
       <br />
       <br />
     </div>
-
   )
 }
 
-export default education;
+export default Education;

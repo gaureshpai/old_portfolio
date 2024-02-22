@@ -4,7 +4,9 @@
     background-image: url("/background.jpg");
     background-size: cover; 
     background-color: #f0f0f0;
+    background-attachment: fixed; 
 }
+
 h2{
     text-decoration: underline;
 }
@@ -12,25 +14,30 @@ h2{
     background: linear-gradient(180deg, #333333, #000000);
     width: 100%;
     height: 15vh; 
-    display: flex;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr); 
     justify-content: center;
     align-items: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 0 20px;
+    padding: 0 5%;
+    box-sizing: border-box;
 }
 
 .menu {
     display: flex;
+    flex-wrap: wrap; 
+    margin-top: 5%;
 }
 
 .menu_button {
     text-decoration: none;
     color: white;
-    padding: 15px 25px; 
+    padding: 10px 20px;
     border-radius: 5px;
     background-color: grey;
     transition: background-color 0.3s, color 0.3s;
-    margin: 0 10px;
+    margin: 5px; 
+    box-sizing: border-box;
 }
 
 .menu_button:hover {
@@ -38,6 +45,7 @@ h2{
 }
 
 .intro {
+        margin-top: 15%;
     padding: 20px;
     margin: 10px;
     background-color: rgb(241, 241, 241);
@@ -66,6 +74,7 @@ h2{
 .contactInfo {
     padding: 20px;
     margin: 10px;
+    justify-content: flex-start;
     background-color: rgb(241, 241, 241);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     border-radius: 12px;
@@ -73,17 +82,30 @@ h2{
     transition: transform 0.2s ease;
     box-sizing: content-box;
     min-height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
 }
+.headingc {
+    background-color: white;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    padding: 1px; 
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .contactInfo {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
 .contactInfo p {
     margin-top: 20px;
     line-height: 1.6;
     text-decoration: none;
-}
-.School{
-    float: left;
-}
-.PUC{
-    float: right;
 }
 .skills{
     padding: 20px;
@@ -139,30 +161,28 @@ h2{
     text-decoration: underline;
 }
 .Certificates {
-  padding: 20px;
-  margin: 10px;
-  background-color: rgb(241, 241, 241);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-  border-radius: 12px;
-  text-align: center;
-  transition: transform 0.2s ease;
-  box-sizing: content-box;
-  min-height: 40vh;
-  min-width: 80vw;
-}
-
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.2s ease;
+    box-sizing: content-box;
+    min-height: 40vh;
+    min-width: 80vw;
+}   
 .certification-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
 .certification {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-      margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
     background-color: rgb(241, 241, 241);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     border-radius: 12px;
@@ -170,9 +190,9 @@ h2{
 }
 
 .certification img {
-  max-width: 100%;
-  height: auto;
-  max-height: 200px;
+    max-width: 100%;
+    height: auto;
+    max-height: 200px;
 }
 .footer {
     background-color: #333;
@@ -197,4 +217,63 @@ h2{
     box-sizing: content-box;
     min-height: 40vh;
     min-width: 60vw;
+}
+.content_body{
+    height: fit-content;
+    width: auto;
+}
+.contactInfo>.education-heading {
+    grid-column: span 3;
+}
+@media screen and (max-width: 768px) {
+.topbar{
+    display: grid;
+    padding:10px 5px;
+    justify-content: flex-start;
+    grid-template-columns: repeat(1, 1fr);
+    min-height: 15vh;
+}
+.content_body {
+    height: fit-content;
+    width: auto;
+    display: block;
+}
+.menu{
+    margin: auto;
+}
+.intro {
+    margin-top: 15%;
+    inline-size: none;
+}
+.MainBody {
+    margin: 0;
+    overflow-x: hidden;
+    background-image: url("/mobile.jpeg");
+    background-size: cover; 
+    background-color: #f0f0f0;
+    background-attachment: fixed; 
+}
+
+.container {
+    display: block;
+    align-items: center;
+    min-height: 80vh;
+    min-width: 80vw;
+    overflow-y: scroll;
+}
+
+.contactInfo {
+   display: block;
+}
+
+.Certificates {
+    padding: 10px;
+    margin: 5px;
+
+}   
+.certification-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
 }

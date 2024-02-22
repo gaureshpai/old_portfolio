@@ -6,33 +6,29 @@ async function getdata() {
     try {
         const res = await fetch("http://localhost:3000/api/certs", { cache: "no-store" });
         if (res.ok) {
-            const data: any[] = await res.json(); // Specify that data is an array of any type
-            return data.sort((a: any, b: any) => new Date(b.date).getTime() - new Date(a.date).getTime()); // Cast dates to number using getTime() method
+            const data: any[] = await res.json();
+            return data.sort((a: any, b: any) => new Date(b.date).getTime() - new Date(a.date).getTime());
         }
     } catch (error) {
         console.error("Failed to fetch data from localhost. Using fallback URL.");
     }
 
-    // If localhost is not accessible or there's an error, fall back to the other URL
     const fallbackRes = await fetch("https://gauresh.vercel.app/api/certs", { cache: "no-store" });
     if (fallbackRes.ok) {
-        const fallbackData: any[] = await fallbackRes.json(); // Specify that fallbackData is an array of any type
-        return fallbackData.sort((a: any, b: any) => new Date(b.date).getTime() - new Date(a.date).getTime()); // Cast dates to number using getTime() method
+        const fallbackData: any[] = await fallbackRes.json();
+        return fallbackData.sort((a: any, b: any) => new Date(b.date).getTime() - new Date(a.date).getTime());
     }
-    return null; // Return null if both URLs fail
+    return null;
 }
 
-
-
-
 const AllCertificates = () => {
-    const [data, setData] = useState<any[]>([]); 
+    const [data, setData] = useState<any[]>([]);
 
     useEffect(() => {
         const fetchData = async () => {
             try {
                 const result = await getdata();
-                if (result) setData(result); 
+                if (result) setData(result);
             } catch (error) {
                 console.error("Error fetching data:", error);
             }
@@ -43,8 +39,14 @@ const AllCertificates = () => {
 
     return (
         <div className="container">
+            <br />
+            <br />
+            <br />
+            <br />
             <div className='Certificates'>
-                <h2>Certifications and Courses</h2>
+                <div className='headingc'>
+                    <h2>Certifications and Courses</h2>
+                </div>
                 <div className="certification-grid">
                     {data.map((post) => (
                         <div key={post?._id} className="certification">

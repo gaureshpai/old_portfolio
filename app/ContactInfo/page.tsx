@@ -5,6 +5,10 @@ const ContactInformation = () => {
 
   return (
     <div className="container">
+      <br/>
+      <br/>
+      <br/>
+      <br/>
       <div className="contact">
         <div className="contact-item">
           <FaEnvelope />

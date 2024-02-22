@@ -3,6 +3,10 @@ import React from 'react';
 const Projects = () => {
   return (
     <div className="container">
+      <br />
+      <br />
+      <br />
+      <br />
       <div className="project">
         <h2>Projects</h2>
         <div className='projectitem'>
