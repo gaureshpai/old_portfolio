@@ -45,7 +45,7 @@ h2{
 }
 
 .intro {
-        margin-top: 15%;
+    margin-top: 15%;
     padding: 20px;
     margin: 10px;
     background-color: rgb(241, 241, 241);
@@ -242,7 +242,7 @@ h2{
     margin: auto;
 }
 .intro {
-    margin-top: 15%;
+    margin-top: 30%;
     inline-size: none;
 }
 .MainBody {
