@@ -3,17 +3,17 @@ import { NextResponse } from 'next/server';
 import React, { useState, useEffect } from 'react';
 
 async function getdata() {
-    try {
+    if(1){
         const res = await fetch("http://localhost:3000/api/certs", { cache: "no-store" });
         if (res.ok) return res.json(); // If localhost is accessible, return its response
-    } catch (error) {
-        console.error("Failed to fetch data from localhost. Using fallback URL.");
     }
-
+    else{
     // If localhost is not accessible or there's an error, fall back to the other URL
     const fallbackRes = await fetch("https://gauresh.vercel.app/api/certs", { cache: "no-store" });
     if (fallbackRes.ok) return fallbackRes.json();
     return null; // Return null if both URLs fail
+    }
+
 }
 
 
