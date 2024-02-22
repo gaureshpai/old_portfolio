@@ -10,17 +10,33 @@
 h2{
     text-decoration: underline;
 }
+
 .topbar {
     background: linear-gradient(180deg, #333333, #000000);
     width: 100%;
     height: 15vh; 
-    display: grid;
-    grid-template-rows: repeat(2, 1fr); 
-    justify-content: center;
+    display: flex;
+    justify-content: space-between; 
     align-items: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 0 5%;
     box-sizing: border-box;
+}
+
+.header-container {
+    display: flex; 
+    align-items: center; 
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+    size: 4%;
+}
+h1{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    size: larger;
 }
 
 .menu {
@@ -62,7 +78,6 @@ h2{
     line-height: 1.6; 
     text-decoration: none;
 }
-
 .container {
     display: flex;
     justify-content: center;
@@ -232,6 +247,7 @@ h2{
     justify-content: flex-start;
     grid-template-columns: repeat(1, 1fr);
     min-height: 15vh;
+    justify-items: center;
 }
 .content_body {
     height: fit-content;
@@ -259,6 +275,7 @@ h2{
     align-items: center;
     min-height: 80vh;
     min-width: 80vw;
+    margin-top: 20%;
     overflow-y: scroll;
 }
 

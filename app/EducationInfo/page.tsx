@@ -3,14 +3,14 @@ import Link from 'next/link'
 
 const Education = () => {
   return (
-    <div className="containerc">
+    <div className="container">
       <br />
       <br />
       <br />
       <br />
       <div className='contactInfo'>
         <h2 className="education-heading">Education</h2>
-        <div className='School'>
+        <div className='info'>
           <h3>Schooling</h3>
           <p>School: SVS Vidyagiri</p>
           <p>Location: Bantwal, Karnataka</p>
@@ -22,7 +22,7 @@ const Education = () => {
           </Link>
         </div>
 
-        <div className='PUC'>
+        <div className='info'>
           <h3>Pre-University Course (PUC)</h3>
           <p>College: Aloysius Pre-University College</p>
           <p>Location: Mangaluru, Karnataka</p>
@@ -35,7 +35,7 @@ const Education = () => {
           </Link>
         </div>
 
-        <div className='Engineering'>
+        <div className='info'>
           <h3>Bachelor of Engineering in Computer Science</h3>
           <p>College: AJIET (affiliated to VTU Belagavi)</p>
           <p>Location: Mangaluru, Karnataka</p>
