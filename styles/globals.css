@@ -248,6 +248,7 @@ h1{
     grid-template-columns: repeat(1, 1fr);
     min-height: 15vh;
     justify-items: center;
+    margin-bottom: 10%;
 }
 .content_body {
     height: fit-content;
