@@ -11,6 +11,11 @@ h2{
     text-decoration: underline;
 }
 
+.point{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
 .topbar {
     background: linear-gradient(180deg, #333333, #000000);
     width: 100%;

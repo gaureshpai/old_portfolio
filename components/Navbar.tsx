@@ -1,11 +1,12 @@
 import React from 'react';
 import Link from 'next/link';
+import { Cursor } from 'mongoose';
 
 const Navbar = () => {
   return (
     <div className='topbar'>
       <div className='header-container'>
-        <h1>Gauresh G Pai</h1>
+        <h1><Link href="/" className='point'>Gauresh G Pai</Link></h1>
       </div>
       <div className="menu">
         <Link href="/" className='menu_button'>Introduction or About Me</Link>
