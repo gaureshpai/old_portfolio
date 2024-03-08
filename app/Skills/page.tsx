@@ -35,16 +35,13 @@ const Skills = () => {
 
         <h3>Web Development</h3>
         <ul>
-          <li><FaHtml5 /> HTML5</li>
-          <li><FaCss3Alt /> CSS3</li>
+          <li><FaHtml5 /> HTML</li>
+          <li><FaCss3Alt /> CSS</li>
           <li><FaReact /> React.js</li>
-          <li><FaNodeJs /> Node.js</li>
-          <li><FaBootstrap /> Bootstrap</li>
         </ul>
 
         <h3>Database</h3>
         <ul>
-          <li><FaDatabase /> SQL</li>
           <li><FaDatabase /> MongoDB</li>
           <li><FaDatabase /> Firebase</li>
         </ul>
