@@ -1,13 +1,12 @@
 import React from 'react';
+import { DiJavascript } from 'react-icons/di';
 import {
   FaPython,
   FaJava,
   FaCode,
   FaHtml5,
   FaCss3Alt,
-  FaReact,
   FaNodeJs,
-  FaBootstrap,
   FaDatabase,
   FaGit,
   FaTools,
@@ -37,7 +36,7 @@ const Skills = () => {
         <ul>
           <li><FaHtml5 /> HTML</li>
           <li><FaCss3Alt /> CSS</li>
-          <li><FaReact /> React.js</li>
+          <li><DiJavascript/>Javascript</li>
         </ul>
 
         <h3>Database</h3>
