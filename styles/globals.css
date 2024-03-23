@@ -95,7 +95,6 @@ h1{
     padding: 20px;
     margin: 10px;
     justify-content: flex-start;
-    background-color: rgb(241, 241, 241);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     border-radius: 12px;
     text-align: center;
@@ -130,7 +129,6 @@ h1{
 .skills{
     padding: 20px;
     margin: 10px 10px;
-    background-color: rgb(241, 241, 241);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     border-radius: 12px;
     text-align: center;
@@ -139,10 +137,71 @@ h1{
     min-height: 40vh;
     min-width: 60vw; 
 }
+/* Add this CSS to provide white background to the skills headings */
+.skills-heading {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.skill-category h3 {
+    background-color: white;
+    padding: 10px; /* You can adjust the padding as needed */
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Add this CSS to style the skill categories */
+.skill-category {
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+
+/* Add this CSS to style the skill list items */
+.skill-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* Add this CSS to style each skill item */
+.skill-item {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+/* Add this CSS to style the skill icons */
+.skill-icon {
+    margin-right: 5px;
+}
+
 .project {
     padding: 20px;
     margin: 10px 10px;
-    background-color: rgb(241, 241, 241);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.2s ease;
+    box-sizing: content-box;
+    min-height: 40vh;
+    min-width: 60vw;
+}
+/* Add this CSS to style the project headings */
+.project h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Add this CSS to style each project item */
+.projectitem {
+    margin-bottom: 40px;
+    background-color: white;
+    padding: 20px;
+    margin: 10px 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     border-radius: 12px;
     text-align: center;
@@ -152,33 +211,38 @@ h1{
     min-width: 60vw;
 }
 
-.projectitem {
-    padding: 20px;
-}
-
+/* Add this CSS to style the project item headings */
 .projectitem h3 {
     margin-bottom: 10px;
 }
 
+/* Add this CSS to style the project item paragraphs */
 .projectitem p {
-    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
+/* Add this CSS to style the project item lists */
 .projectitem ul {
-    list-style-type: none;
-    padding: 0;
+    padding-left: 20px;
+    margin-bottom: 10px;
 }
 
-.projectitem ul li {
-    margin-bottom: 5px;
-}
-
+/* Add this CSS to style the project item links */
 .projectitem a {
     color: blue;
+    text-decoration: underline;
 }
 
+/* Add this CSS to style the project item links on hover */
 .projectitem a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+}
+.project h2 {
+    background-color: white;
+    padding: 10px;
+    /* You can adjust the padding as needed */
+    border-radius: 5px;
+    text-align: center;
 }
 .Certificates {
     padding: 20px;
@@ -229,7 +293,6 @@ h1{
 .contact {
     padding: 20px;
     margin: 10px 10px;
-    background-color: rgb(241, 241, 241);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     border-radius: 12px;
     text-align: center;
@@ -238,12 +301,35 @@ h1{
     min-height: 40vh;
     min-width: 60vw;
 }
+.contact-item{
+    background-color: white;
+    margin: 10px 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.2s ease;
+    box-sizing: content-box;
+}
 .content_body{
     height: fit-content;
     width: auto;
 }
 .contactInfo>.education-heading {
     grid-column: span 3;
+}
+.education-heading {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.info {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
 }
 @media screen and (max-width: 768px) {
 .topbar{
