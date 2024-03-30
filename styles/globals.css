@@ -137,7 +137,6 @@ h1{
     min-height: 40vh;
     min-width: 60vw; 
 }
-/* Add this CSS to provide white background to the skills headings */
 .skills-heading {
     background-color: white;
     padding: 10px;
@@ -146,12 +145,11 @@ h1{
 }
 .skill-category h3 {
     background-color: white;
-    padding: 10px; /* You can adjust the padding as needed */
+    padding: 10px;
     border-radius: 5px;
     text-align: center;
 }
 
-/* Add this CSS to style the skill categories */
 .skill-category {
     padding: 20px;
     margin: 10px;
@@ -159,13 +157,11 @@ h1{
     border-radius: 12px;
 }
 
-/* Add this CSS to style the skill list items */
 .skill-list {
     list-style: none;
     padding: 0;
 }
 
-/* Add this CSS to style each skill item */
 .skill-item {
     padding: 10px;
     margin: 5px 0;
@@ -174,7 +170,6 @@ h1{
     background-color: white;
 }
 
-/* Add this CSS to style the skill icons */
 .skill-icon {
     margin-right: 5px;
 }
@@ -190,13 +185,12 @@ h1{
     min-height: 40vh;
     min-width: 60vw;
 }
-/* Add this CSS to style the project headings */
+
 .project h2 {
     text-align: center;
     margin-bottom: 20px;
 }
 
-/* Add this CSS to style each project item */
 .projectitem {
     margin-bottom: 40px;
     background-color: white;
@@ -211,36 +205,30 @@ h1{
     min-width: 60vw;
 }
 
-/* Add this CSS to style the project item headings */
 .projectitem h3 {
     margin-bottom: 10px;
 }
 
-/* Add this CSS to style the project item paragraphs */
 .projectitem p {
     margin-bottom: 10px;
 }
 
-/* Add this CSS to style the project item lists */
 .projectitem ul {
     padding-left: 20px;
     margin-bottom: 10px;
 }
 
-/* Add this CSS to style the project item links */
 .projectitem a {
     color: blue;
     text-decoration: underline;
 }
 
-/* Add this CSS to style the project item links on hover */
 .projectitem a:hover {
     text-decoration: none;
 }
 .project h2 {
     background-color: white;
     padding: 10px;
-    /* You can adjust the padding as needed */
     border-radius: 5px;
     text-align: center;
 }
