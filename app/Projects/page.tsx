@@ -9,6 +9,7 @@ const Projects = () => {
       <br />
       <div className="project">
         <h2>Projects</h2>
+
         {/*Project 1*/}
         <div className='projectitem'>
           <h3>Promptopia</h3>
@@ -46,6 +47,7 @@ const Projects = () => {
             <p><a href="https://ggpromtopia.vercel.app/" target='_blank' rel="noopener noreferrer">Live Demo</a></p>
           </div>
         </div>
+
         {/*Project 2*/}
         <div className='projectitem'>
           <h3>Interpretations Management App</h3>
@@ -55,7 +57,7 @@ const Projects = () => {
           </p>
           <p>
             View, edit, and delete interpretations with ease.
-            Simplify your interpretation management tasks today! 🌟
+            Simplify your interpretation management tasks today!🌟
           </p>
           <p>
             This web application allows users to manage interpretations,
@@ -97,7 +99,8 @@ const Projects = () => {
             <p><a href="https://github.com/gaureshpai/Interpretations-Management-App" target='_blank' rel="noopener noreferrer">GitHub Repository</a></p>
             <p><a href="https://gginterpretations.vercel.app/" target='_blank' rel="noopener noreferrer">Live Demo</a></p>
           </div>
-        </div>        
+        </div>  
+
         {/**Project 3**/} 
         <div className='projectitem'>
           <h3>Java Swing Registration & Quiz App</h3>
@@ -154,6 +157,7 @@ const Projects = () => {
             <p><a href="https://github.com/gaureshpai/Java-Swing-Registration-Quiz-App" target='_blank' rel="noopener noreferrer">GitHub Repository</a></p>
           </div>
         </div>
+
         {/*Project 4*/}
         <div className='projectitem'>
           <h3>Java Swing Login-Quiz App</h3>
@@ -188,7 +192,8 @@ const Projects = () => {
           <div>
             <p><a href="https://github.com/gaureshpai/Java-Swing-Login-Quiz-App" target='_blank' rel="noopener noreferrer">GitHub Repository</a></p>
           </div>
-        </div> 
+        </div>
+         
         {/*Project 5*/}
         <div className='projectitem'>
           <h3>HTML Converter</h3>

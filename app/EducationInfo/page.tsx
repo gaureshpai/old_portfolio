@@ -18,7 +18,8 @@ const Education = () => {
           <p>Percenatge score: 96.96%</p>
           <Link className="link"
             href="https://schools.org.in/dakshina-kannada/29240108307/svs-english-medium-high-school-vidyagiri-bantwal.html"
-            target="_blank">More about the school
+            target="_blank">
+              More about the school
           </Link>
         </div>
 
@@ -31,7 +32,8 @@ const Education = () => {
           <p>Percenatge score: 96%</p>
           <Link className="link"
             href="https://staloysiuspuc.in/index.aspx#popup1"
-            target="_blank">More about PUC
+            target="_blank">
+              More about PUC
           </Link>
         </div>
 
@@ -42,11 +44,13 @@ const Education = () => {
           <p>Graduation Date: June 2026(Expected)</p>
           <p><Link className="link"
             href="https://staloysiuspuc.in/index.aspx#popup1"
-            target="_blank">More about College
+            target="_blank">
+              More about College
           </Link></p>
           <p><Link className="link"
             href="https://vtu.ac.in/"
-            target="_blank">More about University
+            target="_blank">
+              More about University
           </Link></p>
         </div>
       </div>

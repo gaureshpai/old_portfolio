@@ -2,7 +2,6 @@ import React from 'react';
 import { FaEnvelope, FaLinkedin, FaTwitter, FaInstagram, FaGithub, FaYoutube } from 'react-icons/fa';
 
 const ContactInformation = () => {
-
   return (
     <div className="container">
       <br/>

@@ -1,4 +1,5 @@
 "use client"
+
 import { NextResponse } from 'next/server';
 import React, { useState, useEffect } from 'react';
 
@@ -33,7 +34,6 @@ const AllCertificates = () => {
                 console.error("Error fetching data:", error);
             }
         };
-
         fetchData();
     }, []);
 

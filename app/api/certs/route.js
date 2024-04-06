@@ -1,5 +1,4 @@
 import { NextResponse } from 'next/server';
-
 import { connect } from '../../../utils/db';
 import Cert from '../../models/Cert';
 

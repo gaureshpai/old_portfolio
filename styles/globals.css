@@ -114,7 +114,6 @@ h1{
     border-radius: 10px;
 }
 
-
 @media screen and (max-width: 768px) {
     .contactInfo {
         grid-template-columns: repeat(1, 1fr);

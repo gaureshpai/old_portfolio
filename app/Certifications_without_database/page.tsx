@@ -120,6 +120,48 @@ const CertificationsAndCourses = () => {
             <p>Date of Completion: 17 Febraury 2024</p>
           </div>
 
+          <div className="certification">
+            <h3>Using Python to Interact with the Operating System</h3>
+            <img src="/Certificate 17.png" alt="Using Python to Interact with the Operating System" />
+            <p>Provider: Coursera</p>
+            <p>Date of Completion: 04 March 2024</p>
+          </div>
+
+          <div className="certification">
+            <h3>Learn JavaScript - For Beginners</h3>
+            <img src="/Certificate 18.jpg" alt="Learn JavaScript - For Beginners" />
+            <p>Provider: Udemy</p>
+            <p>Date of Completion: 12 March 2024</p>
+          </div>
+
+          <div className="certification">
+            <h3>Introduction to Git and GitHub</h3>
+            <img src="/Certificate 19.jpg" alt="Introduction to Git and GitHub" />
+            <p>Provider: Coursera</p>
+            <p>Date of Completion: 22 March 2024</p>
+          </div>
+
+          <div className="certification">
+            <h3>Javascript Build a Calculator using HTML, CSS and Javascript</h3>
+            <img src="/Certificate 20.jpg" alt="Javascript Build a Calculator using HTML, CSS and Javascript" />
+            <p>Provider: Udemy</p>
+            <p>Date of Completion: 28 March 2024</p>
+          </div>
+
+          <div className="certification">
+            <h3>CSS And Javascript Crash Course</h3>
+            <img src="/Certificate 21.jpg" alt="CSS And Javascript Crash Course" />
+            <p>Provider: Udemy</p>
+            <p>Date of Completion: 28 March 2024</p>
+          </div>
+
+          <div className="certification">
+            <h3>CSS, Bootstrap ,JavaScript, Web Development Course</h3>
+            <img src="/Certificate 22.jpg" alt="CSS, Bootstrap ,JavaScript, Web Development Course" />
+            <p>Provider: Udemy</p>
+            <p>Date of Completion: 28 March 2024</p>
+          </div>
+
         </div>
       </div>
     </div>

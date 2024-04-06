@@ -5,7 +5,6 @@ export const connect = async () => {
         await mongoose.connect(process.env.MONGODB_URL, {
             dbName: "Certificates", 
         });
-
         console.log('MongoDB connected');
     } catch (error) {
         console.error("Error in connecting MongoDB");

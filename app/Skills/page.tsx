@@ -40,7 +40,7 @@ const Skills = () => {
           <ul className="skill-list">
             <li className="skill-item"><FaHtml5 className="skill-icon" /> HTML</li>
             <li className="skill-item"><FaCss3Alt className="skill-icon" /> CSS</li>
-            <li className="skill-item"><DiJavascript className="skill-icon" />Javascript</li>
+            <li className="skill-item"><DiJavascript className="skill-icon" /> Javascript</li>
           </ul>
         </div>
 
@@ -60,6 +60,7 @@ const Skills = () => {
             <li className="skill-item"><FaChartBar className="skill-icon" /> Marketing</li>
           </ul>
         </div>
+
       </div>
     </div>
   );

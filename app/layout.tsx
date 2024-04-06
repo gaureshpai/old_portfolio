@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     apple: ['apple-touch-icon.png?v=4'],
     shortcut: ['apple-touch-icon.png?v']
   },
-  manifest: '/site.webmanifest'
+  manifest: '/site.webmanifest',
 };
 
 export default function RootLayout({
@@ -27,7 +27,7 @@ export default function RootLayout({
         <div className='content_body'>
           {children}
         </div>
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );
