@@ -43,7 +43,7 @@ const Education = () => {
           <p>Location: Mangaluru, Karnataka</p>
           <p>Graduation Date: June 2026(Expected)</p>
           <p><Link className="link"
-            href="https://staloysiuspuc.in/index.aspx#popup1"
+            href="https://www.ajiet.edu.in/"
             target="_blank">
               More about College
           </Link></p>
