@@ -10,7 +10,89 @@ const Projects = () => {
       <div className="project">
         <h2>Projects</h2>
 
-        {/*Project 1*/}
+        {/* Project 1 */}
+        <div className='projectitem'>
+          <h3>Quizopia</h3>
+          <p>
+            About:
+            Quizopia is a Marvel-themed quiz application that tests your knowledge about Marvel characters and their universe.
+            The app includes detailed character profiles and a variety of quiz questions to challenge users.
+          </p>
+          <p>
+            Role: Full Stack Developer
+          </p>
+          <div>
+            <p>Technologies Used:</p>
+            <ul>
+              <li>Next.js: A React framework for building fast and user-friendly web applications.</li>
+              <li>HTML & CSS: For structuring and styling the web pages.</li>
+              <li>JavaScript: The programming language used for developing the application logic.</li>
+              <li>JSON: Used to retrieve data from the API for character profiles and quiz questions.</li>
+            </ul>
+          </div>
+          <div>
+            <p>Features:</p>
+            <ul>
+              <li>Character Profiles: Detailed profiles for each character, including descriptions, skills, images, and more.</li>
+              <li>Quiz Questions: A wide range of questions covering different Marvel characters and their stories.</li>
+              <li>User-friendly Interface: Easy-to-use interface for seamless quiz taking.</li>
+            </ul>
+          </div>
+          <div>
+            <p>Outcome:</p>
+            <ul>
+              <li>The Quizopia website effectively provides a platform for Marvel fans to test their knowledge.</li>
+              <li>It features comprehensive character profiles and a variety of quiz questions, enhancing user engagement.</li>
+              <li>The intuitive interface ensures a seamless user experience, making it enjoyable to use.</li>
+            </ul>
+          </div>
+          <div>
+            <p><a href="https://github.com/gaureshpai/ggquizopia" target='_blank' rel="noopener noreferrer">GitHub Repository</a></p>
+            <p><a href="https://ggquizopia.vercel.app" target='_blank' rel='noopener noreferrer'>Live Demo</a></p>
+          </div>
+        </div>
+
+        {/* Project 2 */}
+        <div className='projectitem'>
+          <h3>GGReplicater</h3>
+          <p>
+            About:
+            GGReplicater is a web application hosted on Vercel that utilizes Replicate AI to generate images based on user prompts.
+          </p>
+          <p>
+            Role: Full Stack Developer
+          </p>
+          <div>
+            <p>Technologies Used:</p>
+            <ul>
+              <li>Next.js: The foundation for building React applications with server-side rendering.</li>
+              <li>Replicate AI: Advanced AI algorithms power our image generation.</li>
+              <li>Tailwind CSS: A utility-first CSS framework for building modern and responsive designs.</li>
+            </ul>
+          </div>
+          <div>
+            <p>Features:</p>
+            <ul>
+              <li>Generate Images: Input a prompt and receive an AI-generated image in response.</li>
+              <li>Download Images: Download the generated image with ease.</li>
+              <li>Open Source: GGReplicater is built on open-source technologies, encouraging collaboration and innovation.</li>
+            </ul>
+          </div>
+          <div>
+            <p>Outcome:</p>
+            <ul>
+              <li>GGReplicater provides an easy-to-use platform for generating images based on user prompts.</li>
+              <li>It promotes creativity by allowing users to visualize their ideas through AI-generated images.</li>
+              <li>The open-source nature of the project encourages community contributions and further innovation.</li>
+            </ul>
+          </div>
+          <div>
+            <p><a href="https://github.com/gaureshpai/ggreplicater" target='_blank' rel="noopener noreferrer">GitHub Repository</a></p>
+            <p><a href="https://ggreplicater.vercel.app/" target='_blank' rel="noopener noreferrer">Live Demo</a></p>
+          </div>
+        </div>
+
+        {/*Project 3*/}
         <div className='projectitem'>
           <h3>Promptopia</h3>
           <p>
@@ -29,17 +111,17 @@ const Projects = () => {
           <div>
             <p>Technologies Used:</p>
             <ul>
-              <ul>Next.js: The foundation for building React applications with server-side rendering.</ul>
-              <ul>AI Algorithms: Advanced algorithms power our prompt generation, providing unique and engaging content.</ul>
-              <ul>Tailwind CSS: A utility-first CSS framework for building modern and responsive designs.</ul>
+              <li>Next.js: The foundation for building React applications with server-side rendering.</li>
+              <li>AI Algorithms: Advanced algorithms power our prompt generation, providing unique and engaging content.</li>
+              <li>Tailwind CSS: A utility-first CSS framework for building modern and responsive designs.</li>
             </ul>
           </div>
           <div>
             <p>Outcome:</p>
             <ul>
-              <ul>The Promptopia website effectively communicates its purpose as an AI prompting tool for igniting creativity. </ul>
-              <ul>It features clear instructions for getting started, guidelines for usage and contributions, and acknowledges the technologies used.</ul>
-              <ul>The user-friendly interface and transparent information make it a valuable resource for creative individuals.</ul>
+              <li>The Promptopia website effectively communicates its purpose as an AI prompting tool for igniting creativity.</li>
+              <li>It features clear instructions for getting started, guidelines for usage and contributions, and acknowledges the technologies used.</li>
+              <li>The user-friendly interface and transparent information make it a valuable resource for creative individuals.</li>
             </ul>
           </div>
           <div>
@@ -48,7 +130,7 @@ const Projects = () => {
           </div>
         </div>
 
-        {/*Project 2*/}
+        {/*Project 4*/}
         <div className='projectitem'>
           <h3>Interpretations Management App</h3>
           <p>
@@ -73,35 +155,35 @@ const Projects = () => {
           <div>
             <p>Technologies Used:</p>
             <ul>
-              <ul>Frontend: Next.js, React. The foundation for building React applications with server-side rendering.</ul>
-              <ul>Backend: AppWriter.</ul>
-              <ul>Tailwind CSS: A utility-first CSS framework for building modern and responsive designs.</ul>
+              <li>Frontend: Next.js, React. The foundation for building React applications with server-side rendering.</li>
+              <li>Backend: AppWriter.</li>
+              <li>Tailwind CSS: A utility-first CSS framework for building modern and responsive designs.</li>
             </ul>
           </div>
           <div>
             <p>Features:</p>
             <ul>
-              <ul>View Interpretations: 👀 Users can view a list of interpretations fetched from the backend.</ul>
-              <ul>Edit Interpretations: ✏️ Users can navigate to edit interpretation pages for making changes.</ul>
-              <ul>Delete Interpretations: 🗑️ Users can delete interpretations directly from the list.</ul>
+              <li>View Interpretations: 👀 Users can view a list of interpretations fetched from the backend.</li>
+              <li>Edit Interpretations: ✏️ Users can navigate to edit interpretation pages for making changes.</li>
+              <li>Delete Interpretations: 🗑️ Users can delete interpretations directly from the list.</li>
             </ul>
           </div>
           <div>
             <p>Outcome:</p>
             <ul>
-              <ul>The Interpretations Management App is a web application designed for users to manage interpretations.</ul>
-              <ul>It offers features such as viewing, editing, and deleting interpretations.</ul>
-              <ul>The frontend is built using Next.js and React, while the backend utilizes AppWriter.</ul>
-              <ul>Users can easily install and set up the app, and it provides REST API endpoints for fetching and deleting interpretations.</ul>
+              <li>The Interpretations Management App is a web application designed for users to manage interpretations.</li>
+              <li>It offers features such as viewing, editing, and deleting interpretations.</li>
+              <li>The frontend is built using Next.js and React, while the backend utilizes AppWriter.</li>
+              <li>Users can easily install and set up the app, and it provides REST API endpoints for fetching and deleting interpretations.</li>
             </ul>
           </div>
           <div>
             <p><a href="https://github.com/gaureshpai/Interpretations-Management-App" target='_blank' rel="noopener noreferrer">GitHub Repository</a></p>
             <p><a href="https://gginterpretations.vercel.app/" target='_blank' rel="noopener noreferrer">Live Demo</a></p>
           </div>
-        </div>  
+        </div>
 
-        {/**Project 3**/} 
+        {/*Project 5*/}
         <div className='projectitem'>
           <h3>Java Swing Registration & Quiz App</h3>
           <p>
@@ -117,40 +199,40 @@ const Projects = () => {
           <div>
             <p>Features:</p>
             <ul>
-              <ul>🔐 User Registration: Easily register with a username, password, security question, and answer.</ul>
-              <ul>🔑 User Login: Conveniently log in with your registered credentials.</ul>
-              <ul>❓ Forgot Password: Retrieve your password by answering the security question.</ul>
-              <ul>📝 Online Quiz: Engage in an interactive online quiz experience.</ul>
-              <ul>🏆 Quiz Result: View your quiz score along with your name.</ul>
+              <li>🔐 User Registration: Easily register with a username, password, security question, and answer.</li>
+              <li>🔑 User Login: Conveniently log in with your registered credentials.</li>
+              <li>❓ Forgot Password: Retrieve your password by answering the security question.</li>
+              <li>📝 Online Quiz: Engage in an interactive online quiz experience.</li>
+              <li>🏆 Quiz Result: View your quiz score along with your name.</li>
             </ul>
           </div>
           <div>
             <p>How to Use:</p>
             <ul>
-              <ul>Registration: Click on the "Register" button. Enter your desired username, password, security question, and answer.
-                Click "Register" to complete the registration process.</ul>
-              <ul>Login: Enter your username and password. Click "Login" to access your account.</ul>
-              <ul>Forgot Password: If you forget your password, click on the "Forgot Password?" button.
-                Enter your username and answer the security question to retrieve your password.</ul>
-              <ul>Take Quiz: Upon logging in, click on the "Login" button to proceed. Answer the quiz questions.
-                Click "Submit" to view your quiz score.</ul>
+              <li>Registration: Click on the "Register" button. Enter your desired username, password, security question, and answer.
+                Click "Register" to complete the registration process.</li>
+              <li>Login: Enter your username and password. Click "Login" to access your account.</li>
+              <li>Forgot Password: If you forget your password, click on the "Forgot Password?" button.
+                Enter your username and answer the security question to retrieve your password.</li>
+              <li>Take Quiz: Upon logging in, click on the "Login" button to proceed. Answer the quiz questions.
+                Click "Submit" to view your quiz score.</li>
             </ul>
           </div>
           <div>
             <p>Persistence:</p>
             <ul>
-              <ul>📄 Registered User Credentials: User registration information is securely saved and can be accessed anytime.</ul>
-              <ul>📊 Quiz Results: Your quiz scores are stored with your name for future reference.</ul>
+              <li>📄 Registered User Credentials: User registration information is securely saved and can be accessed anytime.</li>
+              <li>📊 Quiz Results: Your quiz scores are stored with your name for future reference.</li>
             </ul>
           </div>
           <div>
             <p>File Structure:</p>
             <ul>
-              <ul>LoginApp.java: Main class for the login application.</ul>
-              <ul>User.java: Class representing a user with registration information.</ul>
-              <ul>UserDatabase.java: Class handling user data loading and saving.</ul>
-              <ul>ForgotPasswordApp.java: Class for handling password retrieval.</ul>
-              <ul>OnlineTest.java: Class for conducting the online quiz.</ul>
+              <li>LoginApp.java: Main class for the login application.</li>
+              <li>User.java: Class representing a user with registration information.</li>
+              <li>UserDatabase.java: Class handling user data loading and saving.</li>
+              <li>ForgotPasswordApp.java: Class for handling password retrieval.</li>
+              <li>OnlineTest.java: Class for conducting the online quiz.</li>
             </ul>
           </div>
           <div>
@@ -158,7 +240,7 @@ const Projects = () => {
           </div>
         </div>
 
-        {/*Project 4*/}
+        {/*Project 6*/}
         <div className='projectitem'>
           <h3>Java Swing Login-Quiz App</h3>
           <p>
@@ -171,30 +253,31 @@ const Projects = () => {
           <div>
             <p>Features:</p>
             <ul>
-              <ul>Login Form: Users can enter their username and password to log in.</ul>
-              <ul>Show Password: Checkbox to toggle the visibility of the entered password.</ul>
-              <ul>Forgot Password: Users can recover their passwords by answering a security question.</ul>
-              <ul>Styling: The application features a clean and intuitive user interface with proper styling.</ul>
+              <li>Login Form: Users can enter their username and password to log in.</li>
+              <li>Show Password: Checkbox to toggle the visibility of the entered password.</li>
+              <li>Forgot Password: Users can recover their passwords by answering a security question.</li>
+              <li>Styling: The application features a clean and intuitive user interface with proper styling.</li>
             </ul>
           </div>
           <div>
             <p>How to Run:</p>
             <ul>
-              <ul>Ensure you have the Java Development Kit (JDK) installed.</ul>
-              <ul>Compile and run the LoginApp class.</ul>
+              <li>Ensure you have the Java Development Kit (JDK) installed.</li>
+              <li>Compile and run the LoginApp class.</li>
               <code>
-                javac LoginApp.java<br />
+                javac LoginApp.java
+                <br />
                 java LoginApp
               </code>
-              <ul>The application window will appear, allowing users to log in or recover their passwords.</ul>
+              <li>The application window will appear, allowing users to log in or recover their passwords.</li>
             </ul>
           </div>
           <div>
             <p><a href="https://github.com/gaureshpai/Java-Swing-Login-Quiz-App" target='_blank' rel="noopener noreferrer">GitHub Repository</a></p>
           </div>
         </div>
-         
-        {/*Project 5*/}
+
+        {/*Project 7*/}
         <div className='projectitem'>
           <h3>HTML Converter</h3>
           <p>
@@ -206,36 +289,35 @@ const Projects = () => {
           <div>
             <p>Usage:</p>
             <ul>
-              <ul>Input File: Provide the path or filename of the text file you want to convert when prompted.</ul>
-              <ul>Output File: The program generates an HTML file with the same name as the input file but with the .html extension.</ul>
+              <li>Input File: Provide the path or filename of the text file you want to convert when prompted.</li>
+              <li>Output File: The program generates an HTML file with the same name as the input file but with the .html extension.</li>
             </ul>
           </div>
           <div>
             <p>Prerequisites:</p>
             <ul>
-              <ul>Java Development Kit (JDK) installed on your system.</ul>
-              <ul>Eclipse IDE (or any Java IDE) for development.</ul>
+              <li>Java Development Kit (JDK) installed on your system.</li>
+              <li>Eclipse IDE (or any Java IDE) for development.</li>
             </ul>
           </div>
           <div>
             <p>How to Run:</p>
             <ul>
-              <ul>Clone this repository to your local machine.</ul>
-              <ul>Open the project in your preferred Java IDE.</ul>
-              <ul>Compile and run the Main class.</ul>
-              <ul>Follow the instructions to input the filename or path.</ul>
+              <li>Clone this repository to your local machine.</li>
+              <li>Open the project in your preferred Java IDE.</li>
+              <li>Compile and run the Main class.</li>
+              <li>Follow the instructions to input the filename or path.</li>
             </ul>
           </div>
           <div>
             <p>Example:</p>
-            <p>Suppose you have a text file named example.txt with the content "Hello, world! This is a sample text file." 
+            <p>Suppose you have a text file named example.txt with the content "Hello, world! This is a sample text file."
               Running the program with example.txt as input will generate example.html containing the HTML representation of the text.</p>
           </div>
           <div>
             <p><a href="https://github.com/gaureshpai/filetohtmlfileconvertor" target='_blank' rel="noopener noreferrer">GitHub Repository</a></p>
           </div>
         </div>
-
       </div>
     </div>
   );

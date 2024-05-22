@@ -2,24 +2,18 @@
 
 import { NextResponse } from 'next/server';
 import React, { useState, useEffect } from 'react';
+import GET from '../../utils/certs.js';
 
 async function getdata() {
     try {
-        const res = await fetch("http://localhost:3000/api/certs", { cache: "no-store" });
-        if (res.ok) {
-            const data: any[] = await res.json();
+        const res = await GET();
+        if (res) {
+            const data: any[] = res;
             return data.sort((a: any, b: any) => new Date(b.date).getTime() - new Date(a.date).getTime());
         }
     } catch (error) {
         console.error("Failed to fetch data from localhost. Using fallback URL.");
     }
-
-    const fallbackRes = await fetch("https://gauresh.vercel.app/api/certs", { cache: "no-store" });
-    if (fallbackRes.ok) {
-        const fallbackData: any[] = await fallbackRes.json();
-        return fallbackData.sort((a: any, b: any) => new Date(b.date).getTime() - new Date(a.date).getTime());
-    }
-    return null;
 }
 
 const AllCertificates = () => {
