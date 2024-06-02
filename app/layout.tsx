@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import '../styles/globals.css'
+import '../styles/pages.css'
 import Navbar from '@/components/Navbar'
 import Main from '@/components/Main'
 import Footer from '@/components/Footer';

@@ -12,6 +12,7 @@ import {
   FaTools,
   FaChartBar
 } from 'react-icons/fa';
+import '@/styles/pages.css'
 
 
 const Skills = () => {
