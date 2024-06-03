@@ -125,53 +125,7 @@ h1{
     line-height: 1.6;
     text-decoration: none;
 }
-.skills{
-    padding: 20px;
-    margin: 10px 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    border-radius: 12px;
-    text-align: center;
-    transition: transform 0.2s ease;
-    box-sizing: content-box;
-    min-height: 40vh;
-    min-width: 60vw; 
-}
-.skills-heading {
-    background-color: white;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-.skill-category h3 {
-    background-color: white;
-    padding: 10px;
-    border-radius: 5px;
-    text-align: center;
-}
 
-.skill-category {
-    padding: 20px;
-    margin: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    border-radius: 12px;
-}
-
-.skill-list {
-    list-style: none;
-    padding: 0;
-}
-
-.skill-item {
-    padding: 10px;
-    margin: 5px 0;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: white;
-}
-
-.skill-icon {
-    margin-right: 5px;
-}
 
 .project {
     padding: 20px;
