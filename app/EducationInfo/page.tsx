@@ -16,7 +16,7 @@ const Education = () => {
           <p>School: SVS Vidyagiri</p>
           <p>Location: Bantwal, Karnataka</p>
           <p>Passing Year: 2020</p>
-          <p>Percenatge score: 96.96%</p>
+          <p>Percentage score: 96.96%</p>
           <Link className="link"
             href="https://schools.org.in/dakshina-kannada/29240108307/svs-english-medium-high-school-vidyagiri-bantwal.html"
             target="_blank">
@@ -30,7 +30,7 @@ const Education = () => {
           <p>Location: Mangaluru, Karnataka</p>
           <p>Passing Year: 2022</p>
           <p>Stream: Science</p>
-          <p>Percenatge score: 96%</p>
+          <p>Percentage score: 96%</p>
           <Link className="link"
             href="https://staloysiuspuc.in/index.aspx#popup1"
             target="_blank">
