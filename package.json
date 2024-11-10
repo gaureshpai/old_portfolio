@@ -10,11 +10,11 @@
   },
   "dependencies": {
 
-    "mongoose": "^8.8.0",
+    "mongoose": "^8.8.1",
 
 
 
-    "next": "15.0.2",
+    "next": "15.0.3",
 
     "react": "^18",
     "react-dom": "^18",
