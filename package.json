@@ -10,7 +10,7 @@
   },
   "dependencies": {
 
-    "mongoose": "^8.9.3",
+    "mongoose": "^8.9.4",
 
 
 
